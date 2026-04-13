@@ -827,4 +827,70 @@ nav .container form .title h2 {
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+footer {
+  background-color: #3f4255;
+}
+footer .container {
+  padding: 50px 0px;
+}
+footer .container .box {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+}
+footer .container .box .card {
+  width: 250px;
+}
+footer .container .box .card h1 {
+  font-size: 40px;
+  font-weight: 700;
+  text-shadow: 5px 5px 1px #ffe145;
+  padding: 20px 0px;
+  color: white;
+}
+footer .container .box .card hr {
+  margin-bottom: 20px;
+}
+footer .container .box ul {
+  line-height: 30px;
+  color: white;
+}
+footer .container .box ul li {
+  position: relative;
+  cursor: pointer;
+}
+footer .container .box ul li h3 {
+  padding-bottom: 15px;
+}
+footer .container .box ul li::after {
+  content: "";
+  position: absolute;
+  transition: all 0.3s ease;
+  background-color: white;
+  width: 0;
+  left: 50%;
+  transform: translate(-50%);
+  bottom: -5px;
+  height: 2px;
+}
+footer .container .box ul li:hover::after {
+  width: 100%;
+}
+footer .container .bottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 50px 0px;
+  color: white;
+}
+footer .container .bottom ul {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+  color: white;
+}
+footer .container .bottom ul li {
+  cursor: pointer;
 }/*# sourceMappingURL=main.css.map */
