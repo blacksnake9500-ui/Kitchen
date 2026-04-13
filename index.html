@@ -14,7 +14,7 @@
     />
     <link rel="icon" href="./imgs/hero img1.png" />
   </head>
-  <body>
+  <body id="body">
     <header>
       <nav>
         <div class="container">
@@ -41,7 +41,10 @@
             <li><i class="fa-solid fa-bars"></i></li>
           </ul>
           <form id="form" action="">
-            <h2>Login</h2>
+            <div class="title">
+              <h2>Login</h2>
+              <button id="x">x</button>
+            </div>
             <input type="text" placeholder="ism" required />
             <input type="email" placeholder="Enter your email" required />
             <button>Send</button>
@@ -57,11 +60,12 @@
               <h1>Your Food court at home</h1>
               <div class="buttons">
                 <button>Delivery Order in</button>
-                <button>Takeout Grab and go</button>
+                <button id="btnosh">SALAT</button>
               </div>
             </div>
             <div class="card">
               <img src="./imgs/hero img.png" alt="" />
+              <img id="osh" src="./imgs/osh.jfif" alt="" />
             </div>
           </div>
           <div class="bottom">
@@ -69,11 +73,11 @@
               <img src="./imgs/hero img1.png" alt="" />
               <p>delivery in all paris in less than 30 minutes</p>
             </div>
-             <div class="card">
+            <div class="card">
               <img src="./imgs/hero img2.png" alt="" />
               <p>delivery in all paris in less than 30 minutes</p>
             </div>
-             <div class="card">
+            <div class="card">
               <img src="./imgs/hero img3.png" alt="" />
               <p>delivery in all paris in less than 30 minutes</p>
             </div>
@@ -81,9 +85,199 @@
         </div>
       </div>
     </header>
+
     <main>
       <section class="s1">
-        <div class="container"></div>
+        <div class="container">
+          <div class="title">
+            <h1>Restaurants</h1>
+            <button>show all</button>
+          </div>
+          <div class="box">
+            <div class="card">
+              <img src="./imgs/s1 img1.jpg" alt="" />
+              <h2>Burger D'lice</h2>
+            </div>
+            <div class="card">
+              <img src="./imgs/s1 img2.jpg" alt="" />
+              <h2>Il Pastifigio</h2>
+            </div>
+            <div class="card">
+              <img src="./imgs/s1 img3.jpg" alt="" />
+              <h2>Believe</h2>
+            </div>
+            <div class="card">
+              <img src="./imgs/s1 img4.jpg" alt="" />
+              <h2>Vietnamese</h2>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="s2">
+        <div class="container">
+          <div class="card">
+            <h1>Your nearest restaurants</h1>
+            <p>
+              Each kitchen works with its own delivery area to deliver food to
+              you as soon as possible
+            </p>
+          </div>
+          <form action="">
+            <input type="email" placeholder="Enter delivery address" required />
+            <button>Send</button>
+          </form>
+        </div>
+      </section>
+
+      <section class="s3">
+        <div class="container">
+          <div class="title">
+            <h1>Specialities</h1>
+            <button>show all</button>
+          </div>
+          <div class="box">
+            <div class="card">
+              <i class="fa-solid fa-cookie-bite"></i>
+              <p>Bagel</p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-burger"></i>
+              <p>Burger</p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-drumstick-bite"></i>
+              <p>Chiken</p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-fish-fins"></i>
+              <p>Fish</p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-bowl-rice"></i>
+              <p>Fish & chips</p>
+            </div>
+            <div class="card">
+              <i class="fa-brands fa-pagelines"></i>
+              <p>Salad</p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-pizza-slice"></i>
+              <p>Pizza</p>
+            </div>
+            <div class="card">
+              <i class="fa-solid fa-cookie-bite"></i>
+              <p>Bagel</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="s4">
+        <div class="container">
+          <div class="title">
+            <button class="s4btn">Harakatlantirish</button>
+          </div>
+          <div class="box">
+            <div class="card">
+              <h1>1</h1>
+              <p>kitchen</p>
+              <div class="circle"></div>
+            </div>
+            <div class="card">
+              <h1>1</h1>
+              <p>kitchen</p>
+              <div class="circle"></div>
+            </div>
+            <div class="card">
+              <h1>1</h1>
+              <p>kitchen</p>
+              <div class="circle"></div>
+            </div>
+            <div class="card">
+              <h1>1</h1>
+              <p>kitchen</p>
+              <div class="circle"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="s5">
+        <div class="container">
+          <img src="./imgs/Map.png" alt="" />
+          <div class="card">
+            <div class="tooltip-container">
+              Farg'ona
+              <span class="tooltip-text">Bu yer Farg'ona</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="tooltip-container">
+              Andijon
+              <span class="tooltip-text">Bu yer Andijon</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="tooltip-container">
+              Namangan
+              <span class="tooltip-text">Bu yer Namangan</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="tooltip-container">
+              Tojikiston
+              <span class="tooltip-text">Bu yer Tojikiston</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="tooltip-container">
+              Toshkent
+              <span class="tooltip-text">Bu yer Toshkent (poytaxt)</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="tooltip-container">
+              Jizzax
+              <span class="tooltip-text">Bu yer Jizzax</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="tooltip-container">
+              Navoiy
+              <span class="tooltip-text">Bu yer Navoiy</span>
+            </div>
+          </div>
+          <div class="card">
+            <div class="tooltip-container">
+              Samarqand
+              <span class="tooltip-text">Bu yer Samarqand</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="s6">
+        <div class="container">
+          <div class="title">
+            <h1>#YellowKitchens <span>in instagram</span></h1>
+          </div>
+
+          <div class="box">
+            <div class="card">
+              <img src="./imgs/s6 img1.png" alt="">
+            </div>
+            <div class="card">
+              <img src="./imgs/s6 img2.png" alt="">
+            </div>
+            <div class="card">
+              <img src="./imgs/s6 img3.png" alt="">
+            </div>
+            <div class="card">
+              <img src="./imgs/s6 img4.png" alt="">
+            </div>
+          </div>
+        </div>
       </section>
     </main>
     <footer>
